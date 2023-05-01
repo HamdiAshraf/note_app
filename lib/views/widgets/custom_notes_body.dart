@@ -17,12 +17,13 @@ class CustomNotesBody extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 24.0,),
       child: Column(
         children: const [
-          SizedBox(height: 50,),
+          SizedBox(height: 60,),
           CustomAppBar(),
           // CustomNoteItem(
           //   itemColor: const Color(0xffFFCD79) ,
           // ),
           Expanded(child: NotesListView()),
+
 
 
         ],
