@@ -16,10 +16,10 @@ class CustomNotesBody extends StatelessWidget {
       padding: const EdgeInsets.all(24.0),
       child: Column(
         children: [
-          SizedBox(height: 45,),
-          CustomAppBar(),
+          const SizedBox(height: 45,),
+          const CustomAppBar(),
           CustomNoteItem(
-            itemColor:const Color(0xffFFCD79) ,
+            itemColor: const Color(0xffFFCD79) ,
           ),
 
 
@@ -28,6 +28,3 @@ class CustomNotesBody extends StatelessWidget {
     );
   }
 }
-//FFCD79
-//E7E895
-//76D6EE
