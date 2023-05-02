@@ -18,10 +18,8 @@ class CustomNotesBody extends StatelessWidget {
       child: Column(
         children: const [
           SizedBox(height: 60,),
-          CustomAppBar(),
-          // CustomNoteItem(
-          //   itemColor: const Color(0xffFFCD79) ,
-          // ),
+          CustomAppBar(text: 'Notes',icon: Icons.search),
+
           Expanded(child: NotesListView()),
 
 
